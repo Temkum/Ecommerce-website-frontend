@@ -45,7 +45,70 @@ body {
   border-bottom-right-radius: 20px !important;
   cursor: pointer;
 }
-.search-box{
+
+.search-box {
   display: inline-flex;
-  width: 60px;
+  width: 60%;
+}
+
+.fa-search {
+  color: white;
+}
+
+.menu-bar {
+  width: 40%;
+  height: 57px;
+  float: right;
+}
+
+.menu-bar ul {
+  display: inline-flex;
+  float: right;
+  text-transform: uppercase;
+}
+
+.menu-bar ul li {
+  border-left: 1px solid #fff;
+  list-style-type: none;
+  padding: 15px 35px;
+  text-align: center;
+  background-color: orange;
+  cursor: pointer;
+}
+
+.menu-bar ul li a {
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+}
+
+.fa-shopping-basket {
+  margin-right: 5px;
+  color: #fff;
+}
+
+@media only screen and (max-width: 980px) {
+  .top-nav-bar {
+    height: 118px;
+    border-bottom: 0;
+  }
+
+  .search-box {
+    width: 100%;
+  }
+
+  .menu-bar {
+    width: 100%;
+  }
+
+  .menu-bar ul {
+    margin: 10px 0;
+    width: 100%;
+  }
+
+  .menu-bar ul li {
+    height: 57px;
+    width: 100%;
+  }
 }
